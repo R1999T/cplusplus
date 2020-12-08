@@ -27,6 +27,7 @@ int firstocc(int arr[], int n, int i, int key)
 
 int lastocc(int arr[], int n, int i, int key)
 {
+    if(i<=n){
     int restArray = lastocc(arr, n, i+1, key);
     if (restArray !=-1)
     {
@@ -36,9 +37,10 @@ int lastocc(int arr[], int n, int i, int key)
     {
         return i;
     }
-    return -1;        
+    return -1;    
+    }
+      return -1;  
 }
-
 
 //code to take input
 
