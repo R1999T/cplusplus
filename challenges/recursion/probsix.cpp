@@ -1,28 +1,26 @@
-//print number till n,
-//in 1.)decreasing order  2.) increasing order
+//print numbers till n;
+//1.)increasing   2.) decreasing
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-void dec(int n)
+void  dec(int n)
 {
-    if (n ==0)
+    if (n==0)
     {
         return;
     }
 
     cout <<n <<endl;
-    dec(n-1);
-    
+    dec(n-1);    
 }
 
 int main()
 {
-    int main()
     int n;
     cin >>n;
 
     dec(n);
 
-    return 0;
+      return 0;
 }
