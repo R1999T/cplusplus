@@ -18,8 +18,8 @@ union money  //if you wanna use only one variable out of some and also  to save 
 }
 
 
-int main()
-{
+//int main()
+//{
     //  ep rag  hav;
     //  raghav.email =1;
     //  raghav.favChar ='a';
@@ -27,10 +27,10 @@ int main()
     //  cout <<raghav.email<<endl;
     //  cout <<raghav.favChar<<endl;
     //  cout <<raghav.salary <<endl;
-    enum meal(breakfast, lunch, dinner)
+   // enum meal(breakfast, lunch, dinner)
     //enum willl assign numbers to the variables
 
-     return 0;    
+ //    return 0;    
     
      
-}
+//}
